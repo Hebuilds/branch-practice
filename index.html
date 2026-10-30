@@ -3,15 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Branch Practice Landing Page</title>
+    <title>Branch Practice - Home</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to My Website</h1>
-        <p>This version is currently running live on the main branch.</p>
-        <button id="action-btn">Click Me</button>
-    </div>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyWebsite</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="hero">
+        <div class="container">
+            <h1>Welcome to My Website</h1>
+            <p>This content was safely built and tested on our sub-branch!</p>
+            <button id="action-btn">Click Me</button>
+        </div>
+    </main>
+
     <script src="script.js"></script>
 </body>
 </html>
